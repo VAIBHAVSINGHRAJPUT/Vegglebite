@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main1{
+    position: relative;
+
+width: 100%;
+height: 100%;
+background-image: linear-gradient(to bottom,#184059,#1c4d6b);
+border: 1px solid transparent;
+}
+#main{
+    position: relative;
+    width: 92%;
+    height: 85%;
+    margin-top: 4%;
+    margin-left: 4%;
+    background-image: linear-gradient(to right,#073047,#1d4e6c);
+    box-shadow: 10px 5px 10px 3px #042b42;
+}
+#blueberry{
+height: 80%;
+opacity: 0.1;
+margin-left: 40%;
+}
+#title{
+    position: absolute;
+    color: white;
+    margin-top: -488px;
+    margin-left: 30px;
+    font-size: 11px;
+    z-index: 99;
+    font-family: gilroy;
+}
+#title span{
+    color: yellow;
+}
+#left{
+    position: absolute;
+    width: 14%;
+    height: 84.5%;
+    background-image: linear-gradient(to bottom,#092530,#0b2433);
+top: 8.3%;
+left: 4%;
+z-index: 0;
+}
+#social{
+    z-index: 101;
+position: absolute;
+    /* width: 10%; */
+    bottom: .3%;
+    justify-content: space-between;
+    display: block;
+    left: 2%;
+    height: 30%;
+    padding: 30px;
+    color: white;
+}
+#a{
+    display: block;
+    justify-content: space-between;
+    font-size:25px;
+    color: #fecd01;
+}
+#b{
+    display: block;
+    justify-content: space-between;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    font-size: 25px;
+
+}
+#c{
+    display: block;
+    justify-content: space-between;
+    font-size: 25px;
+
+}
+#img1{
+    width: 34%;
+    /* height: 20%; */
+    z-index: 99;
+position: absolute;
+left: 12%;
+bottom:-4%;
+}
+#right{
+    position: absolute;
+    right: 2%;
+top: 8%;
+    width: 32%;
+    height: 75%;
+    background-color: #fecd01;
+}
+#img2{
+position: absolute;
+top: 12%;
+z-index: 99;
+right: 2%;
+height: 80%;
+width: 33%;
+/* box-shadow: 0px 0px 10px 3px #042b42; */
+box-shadow: 2px 2px 5px 1px #042b42 ;
+
+}
+#yellow{
+    position: absolute;
+    width: 14.6%;
+    height: 23%;
+    background-color: #fecd01;
+    bottom: 7%;
+    right: 27%;
+    display: block;
+}
+#r{
+    display: block;
+    font-size: 30px;
+    margin-top: 26px;
+    margin-left: 25px;
+}
+#l{
+    display: block;
+    font-size: 30px;
+    margin-top: 52px;
+    margin-left: 25px;
+}
+hr{
+    border: 0.4px solid black;
+    color: black;
+    margin-top: 13.5%;
+}
+#circle{
+    position: absolute;
+z-index: 99;
+
+    right: 33%;
+    top: 25%;
+    width: 7.3%;
+    height: 12.7%;
+    border-radius: 50%;
+    background-color: rgba(211, 206, 206, 0.952);
+    opacity: 90%;
+}
+#c1{
+    z-index: 99;
+        /* right: 30%; */
+        /* top: 23%; */
+        margin-left: 11px;
+        margin-top: 8px;
+        width: 78.7%;
+        height: 82.7%;
+        border-radius: 50%;
+        background-color: white;
+        border: 7px solid #fecd01 ;
+}
+#l3{
+    position: absolute;
+    font-size: 28px;
+    margin-left: 23px;
+    top: 33%;
+}
+#head h1{
+    position: absolute;
+    top: 13%;
+    left: 12.4%;
+    color: white;
+    font-size: 75px;
+    z-index: 99;
+    text-decoration: underline  #fecd01;
+letter-spacing: 2px;
+/* font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ #head p{
+    font-size: 40px;
+    z-index: 99;
+color:#fecd01 ;
+position: absolute;
+top:23.4%;
+left: 40%;
+box-shadow: 10px 5px 10px 3px #042b42;
+
+}
+#contenet{
+    z-index: 99;
+    position: absolute;
+top: 43%;
+left: 18%;
+color: rgb(218, 214, 214);
+letter-spacing: 1px;
+font-size: 21px;
+font-weight: 300;
+font-family: sans-serif;
+}
+#contenet span{
+    font-weight: 800;
+    color: white;
+}
+#page{
+    position: absolute;
+    z-index: 99;
+bottom: 33%;
+left: 21%;
+    width: 38px;
+    height: 44px;
+    border-radius: 50%;
+    color: transparent;
+    border: 3px solid whitesmoke;
+}
+#page h2{
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+    margin-top: 3px;
+}
+#pg1{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    bottom: 33%;
+    left: 24%;
+    position: absolute;
+    z-index: 99;
+}
+#buy{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 99;
+    color: #fecd01;
+    font-size: 25px;
+    bottom: 33.8%;
+    left: 32%;
+width: 15%;
+}
+#buy p{
+    color: white;
+    text-decoration: underline #fecd01 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nav{
+    width: 60%;
+    margin-top: 26px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
